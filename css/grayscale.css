@@ -15,14 +15,14 @@
  }
 
  #mainNav .navbar-brand {
-   color: #fdcc52;
-   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+   color: #222222;
+   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
    font-weight: 200;
    letter-spacing: 1px;
  }
 
  #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-   color: #fcbd20;
+   color: #bbddcf;
  }
 
  #mainNav .navbar-toggler {
@@ -39,7 +39,7 @@
  }
 
  #mainNav .navbar-nav > li > a.active {
-   color: #fdcc52 !important;
+   color: #bbddcf !important;
    background-color: transparent;
  }
 
@@ -54,7 +54,7 @@
 
  #mainNav .navbar-nav > li > a:hover,
  #mainNav .navbar-nav > li > a:focus:hover {
-   color: #fdcc52;
+   color: #bbddcf;
  }
 
  @media (min-width: 992px) {
@@ -66,15 +66,15 @@
      color: fade(white, 70%);
    }
    #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-     color: white;
+     color: #bbddcf;
    }
    #mainNav .navbar-nav > li > a,
    #mainNav .navbar-nav > li > a:focus {
-     color: rgba(255, 255, 255, 0.7);
+     color: #222222;
    }
    #mainNav .navbar-nav > li > a:hover,
    #mainNav .navbar-nav > li > a:focus:hover {
-     color: white;
+     color: #bbddcf;
    }
    #mainNav.navbar-shrink {
      border-color: rgba(34, 34, 34, 0.1);
@@ -84,7 +84,7 @@
      color: #222222;
    }
    #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-     color: #fdcc52;
+     color: #bbddcf;
    }
    #mainNav.navbar-shrink .navbar-nav > li > a,
    #mainNav.navbar-shrink .navbar-nav > li > a:focus {
@@ -92,9 +92,13 @@
    }
    #mainNav.navbar-shrink .navbar-nav > li > a:hover,
    #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-     color: #fdcc52;
+     color: #bbddcf;
    }
  }
+
+#portfolio{
+  padding: 70px 0 0 0;
+}
 
 .masthead {
   position: relative;
