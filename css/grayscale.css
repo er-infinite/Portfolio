@@ -57,6 +57,10 @@
    color: #bbddcf;
  }
 
+ .navbar{
+   padding: .2rem 1rem;
+ }
+
  @media (min-width: 992px) {
    #mainNav {
      border-color: transparent;
@@ -202,6 +206,12 @@
   }
 }
 
+@media (min-width: 768px)
+.col-md-4 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
 .projects-section .project-text {
   padding: 3rem;
   font-size: 90%;
@@ -284,7 +294,7 @@
 
 #portfolio .portfolio-item {
   right: 0;
-  margin: 0 0 15px;
+  margin: 0 30px 15px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -333,7 +343,7 @@
 #portfolio .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
-  padding: 25px;
+  padding: 7px;
   text-align: center;
   background-color: #fff;
 }
