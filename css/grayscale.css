@@ -4,6 +4,20 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+header{
+  padding: 4rem 3rem 2.5rem 3rem;
+}
+
+ #Library {
+    background-image: url('img/_ABC.JPG');
+    height: 300px;
+    width: 120px;
+ }
+
+ #Library:hover {
+    background-image: url('img/camping.jpg');
+ }
+
 
  #mainNav {
    border-color: rgba(34, 34, 34, 0.05);
@@ -102,9 +116,94 @@
    }
  }
 
-#portfolio{
-  padding: 70px 0 0 0;
+.name{
+  /* font-family: 'Raleway', sans-serif; */
+      font-family: 'Knewave', cursive;
+  /* letter-spacing: 6px; */
+  padding: .5rem 1rem 2.5rem 1rem;
+    color:#bbddcf;;
+
 }
+.name h2{
+  /* color:#bbddcf; */
+    color: #4e4e4e;
+}
+
+.name h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.2em;
+  padding: 1rem;
+  line-height: 1.9;
+  color:#222222;
+    /* background: #f1f8f5; */
+}
+
+mark{
+  background: #f1f8f5;
+  color: #4e4e4e;
+}
+
+.banner{
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 2.5rem;
+  padding: 2.5rem;
+  /* background: #f1f8f5; */
+  background-color: #bbddcf;
+    /* margin: 10px; */
+  display: block;
+}
+.banner h3{
+  font-family: 'Knewave', cursive;
+  letter-spacing: 2px;
+  padding: 1rem;
+  color: white;
+}
+
+.banner p{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 1.2em;
+}
+.banner h5{
+  font-size: 1em;
+  letter-spacing: 5px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.words{
+  /* padding:0 5%; */
+  font-size: 1em;
+  color: white;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 0 0 10px 0;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+
+.row.col-centered > [class*='col-']{
+  display: inline-block;
+  float: none;
+}
+
+#portfolio{
+  padding: 2.5px 0 0 0;
+}
+
+.fprojects {
+  font-family: 'Knewave', cursive;
+  letter-spacing: 2px;
+  padding: 1rem;
+  color: #4e4e4e;
+  /* color: #bbddcf; */
+}
+
+.fprojects h3{
+  color: #949494;
+}
+
 
 .masthead {
   position: relative;
@@ -160,8 +259,8 @@
 
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  font-family: 'Varela Round';
+  padding: 1rem 2rem;
+  font-family: 'Raleway', sans-serif;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: .15rem;
@@ -187,12 +286,18 @@
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  padding-top: 7.5rem;
+  padding-bottom: 5rem;
+  background: white;
+  color: black;
+  font-family: 'Raleway', sans-serif;
 }
 
 .about-section p {
   margin-bottom: 5rem;
+  font-family: 'Roboto Mono', monospace;
+  color: #222222;
+  line-height: 1.75;
 }
 
 .projects-section {
@@ -253,7 +358,7 @@
 }
 
 .contact-section {
-  padding: 5rem 0 0;
+  padding: 2.7rem 0 0;
 }
 
 .contact-section .card {
@@ -296,6 +401,9 @@
   color: #fff;
 }
 
+.about{
+  padding: 2.5rem;
+}
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 30px 15px;
@@ -304,7 +412,7 @@
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
-  max-width: 400px;
+  max-width: 250px;
   margin: 0 auto;
   cursor: pointer;
 }
@@ -456,6 +564,7 @@
   background-color: #212529;
 }
 
+
 body {
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
@@ -483,5 +592,5 @@ a:focus, a:hover {
 }
 
 footer {
-  padding: 5rem 0;
+  padding: 1rem 0;
 }
