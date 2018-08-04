@@ -40,3 +40,11 @@
   $(window).scroll(navbarCollapse);
 
 })(jQuery); // End of use strict
+
+function hover(element) {
+element.setAttribute('src', 'img/2.jpg');
+}
+
+function unhover(element) {
+element.setAttribute('src', 'img/6.jpg');
+}

@@ -337,6 +337,27 @@ mark{
   }
 }
 
+#flash{
+  max-width: 100%;
+  display:block;
+  height: auto;
+}
+
+#Library {
+  background-image: url('../img/2.jpg');
+  width:1020px;
+  min-height:398px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#Library:hover {
+   background-image: url('../img/6.jpg');
+}
+
+
 .signup-section {
   padding: 10rem 0;
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
