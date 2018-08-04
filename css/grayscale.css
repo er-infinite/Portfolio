@@ -4,6 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+ @import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css');
+html,
+body {
+  height: 100%
+}
+
 header{
   padding: 4rem 3rem 2.5rem 3rem;
 }
@@ -32,7 +38,7 @@ header{
 
  #mainNav .navbar-brand {
    color: #222222;
-   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+     font-family: 'Raleway', sans-serif;
    font-weight: 200;
    letter-spacing: 1px;
  }
@@ -48,8 +54,8 @@ header{
  }
 
  #mainNav .navbar-nav > li > a {
-   font-size: 11px;
-   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+   font-size: 12px;
+  font-family: 'Raleway', sans-serif;
    letter-spacing: 2px;
    text-transform: uppercase;
  }
@@ -163,11 +169,14 @@ mark{
 
 .banner p{
   font-family: 'Raleway', sans-serif;
+    /* font-family: 'Roboto Mono', monospace; */
   color: white;
   font-size: 1.2em;
+  font-weight: 100;
 }
+
 .banner h5{
-  font-size: 1em;
+  font-size: 1.em;
   letter-spacing: 5px;
   font-family: 'Raleway', sans-serif;
 }
@@ -176,7 +185,6 @@ mark{
   /* padding:0 5%; */
   font-size: 1em;
   color: white;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 0 0 10px 0;
   font-family: 'Raleway', sans-serif;
   color: white;
@@ -257,6 +265,13 @@ mark{
   }
 }
 
+
+/* @media (min-width: 460px) {
+  #about p {
+    padding: 2rem 0 0 0;
+  }
+} */
+
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1rem 2rem;
@@ -272,7 +287,7 @@ mark{
 }
 
 .btn-primary:hover {
-  background-color: white;
+  background-color: #4e4e4e;
   color: #bbddcf;
 }
 
@@ -311,7 +326,7 @@ mark{
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #bbddcf;
   }
 }
 
@@ -331,7 +346,7 @@ mark{
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #bbddcf;
     border-width: .25rem;
     width: 30%;
   }
@@ -341,21 +356,10 @@ mark{
   max-width: 100%;
   display:block;
   height: auto;
+  padding: 2rem;
 }
 
-#Library {
-  background-image: url('../img/2.jpg');
-  width:1020px;
-  min-height:398px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
 
-#Library:hover {
-   background-image: url('../img/6.jpg');
-}
 
 
 .signup-section {
@@ -384,7 +388,7 @@ mark{
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #bbddcf;
 }
 
 .contact-section .card h4 {
@@ -395,7 +399,7 @@ mark{
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #bbddcf;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -425,6 +429,12 @@ mark{
 .about{
   padding: 2.5rem;
 }
+
+#about p {
+  border-left: 5px solid #bbddcf;
+  padding-left: 1rem;
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 30px 15px;
@@ -592,7 +602,7 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #bbddcf;
 }
 
 a:focus, a:hover {
@@ -605,11 +615,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #bbddcf !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #bbddcf !important;
 }
 
 footer {

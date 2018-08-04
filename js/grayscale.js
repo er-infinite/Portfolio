@@ -42,7 +42,7 @@
 })(jQuery); // End of use strict
 
 function hover(element) {
-element.setAttribute('src', 'img/2.jpg');
+element.setAttribute('src', 'img/5.jpg');
 }
 
 function unhover(element) {
