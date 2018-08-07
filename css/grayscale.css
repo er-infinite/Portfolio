@@ -14,6 +14,15 @@ header{
   padding: 3.8rem 3rem 2.5rem 3rem;
 }
 
+#featured-img{
+    text-decoration: none;
+     width: 200px;
+     height: 272px;
+     background:red;
+     border: 0;
+     display: block;
+}
+
  #Library {
     background-image: url('img/_ABC.JPG');
     height: 300px;
@@ -279,16 +288,18 @@ mark{
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: .15rem;
-  border: 0;
+  /* border: 0; */
 }
 
 .btn-primary {
   background-color: #bbddcf;
+  border-color: #bbddcf;
 }
 
 .btn-primary:hover {
   background-color: #4e4e4e;
   color: #bbddcf;
+  border: solid 1px #bbddcf;;
 }
 
 .btn-primary:focus {
@@ -298,6 +309,37 @@ mark{
 
 .btn-primary:active {
   background-color: #bbddcf !important;
+}
+
+/* contact buttons */
+.btn-outline-primary{
+  border-color: #bbddcf;
+  color: #bbddcf;
+}
+
+.btn-outline-primary:hover{
+  background: #bbddcf;
+  border: solid 1px #bbddcf;
+}
+
+.btn-outline-primary:focus {
+  color: #bbddcf;
+  background: transparent;
+}
+
+.btn-outline-primary:active {
+  background-color: #bbddcf !important;
+}
+
+.email-link{
+    color: #bbddcf !important;
+    text-decoration: none !important;
+}
+
+.email-link:hover, .email-link:focus {
+    color: white !important;
+    text-decoration: underline !important;
+}
 }
 
 .about-section {
@@ -699,9 +741,8 @@ a:focus, a:hover {
 
 footer {
   padding: 1rem 0;
-  
-}
 
+}
 
 .portfolio-items {
   display: block;
@@ -719,7 +760,8 @@ footer {
   position: absolute;
   top: 0;
   bottom: 0;
-  z-index: 1;
+  z-index: 3;
+  background: #222;
 }
 
 .portfolio-items .caption .caption-content {
