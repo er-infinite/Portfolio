@@ -312,10 +312,10 @@ mark{
 }
 
 /* contact buttons */
-.btn-outline-primary{
+/* .btn-outline-primary{
   border-color: #bbddcf;
   color: #bbddcf;
-}
+} */
 
 .btn-outline-primary:hover{
   background: #bbddcf;
