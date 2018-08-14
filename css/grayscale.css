@@ -345,7 +345,7 @@ mark{
 .email-link:hover, .email-link:focus {
   border: solid 2px white;
     color: white !important;
-    /* text-decoration: underline !important; */
+
 }
 }
 
