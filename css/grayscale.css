@@ -332,13 +332,20 @@ mark{
 }
 
 .email-link{
-    color: #bbddcf !important;
+    color: white !important;
     text-decoration: none !important;
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    padding: .5em;
+    line-height: 3rem;
+    color: #bbddcf;
 }
 
 .email-link:hover, .email-link:focus {
+  border: solid 1px white;
     color: white !important;
-    text-decoration: underline !important;
+    /* text-decoration: underline !important; */
 }
 }
 
@@ -448,20 +455,25 @@ mark{
 
 .contact-section .social {
   margin-top: 1rem;
+  margin-bottom: 2.7rem;
+}
+
+.bg-dark {
+  background-color: #bbddcf !important;
 }
 
 .contact-section .social a {
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: white;
   border-radius: 100%;
   line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  color: #bbddcf;
 }
 
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  background-color: #222;
 }
 
 .contact-section .social a:active {
@@ -722,13 +734,13 @@ a {
   color: #bbddcf;
 }
 
-a:focus, a:hover {
+ a:focus, a:hover {
   text-decoration: none;
   color: #3c6360;
 }
 
 .bg-black {
-  background-color: #161616 !important;
+  background-color: #222 !important;
 }
 
 .bg-primary {
@@ -741,6 +753,7 @@ a:focus, a:hover {
 
 footer {
   padding: 1rem 0;
+  background-color: #222 !important;
 
 }
 
