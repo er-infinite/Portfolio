@@ -337,13 +337,13 @@ mark{
     text-align: center;
     height: 3rem;
     width: 3rem;
-    padding: .5em;
+    padding: .6rem;
     line-height: 3rem;
     color: #bbddcf;
 }
 
 .email-link:hover, .email-link:focus {
-  border: solid 1px white;
+  border: solid 2px white;
     color: white !important;
     /* text-decoration: underline !important; */
 }
