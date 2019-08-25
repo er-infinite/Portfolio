@@ -4,6 +4,86 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Knewave|Open+Sans|Roboto+Mono');
 
+.skills{
+  h2{
+    margin-top: 1.5em;
+    font-size: 1.3em;
+    font-weight: 400;
+  }
+  li{
+    // border: 2px solid;
+    padding: .3rem;
+    margin: .3rem 0;
+    border-radius: 7px;
+    background: $theme-red;
+    font-weight: 500;
+  }
+  
+}
+
+.smoothScroll{
+  scroll-behavior: smooth;
+}
+
+.caseStudy{
+  background: black;
+}
+.caseStudyInfo{
+  text-align: left;
+  h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    font-size: 17px;
+    color: $font-gray;
+  }
+  h3 {
+    font-size: 10px;
+    font-family: $font-robotomono;
+    color: $font-sub;
+  }
+  p {
+    font-size: 1em;
+  }
+}
+
+.btn-caseStudy{
+  color: $font-gray;
+  border: 1px solid;
+  border-color: #5e5e5e;
+  // font-size: 1em;
+  text-transform: uppercase;
+    // font-size: .2em;
+    background-color: transparent;
+    // color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: .85em;
+    // border: 2px solid #fff;
+    padding: 9px;
+    text-align: center;
+  &:hover,
+  &:focus,
+  &:active,
+  &.active {
+      color: white;
+      // border-color: ;
+      background-color:  #5e5e5e;
+  }
+}
+
+.header-knewave {
+  font-size: 3em;
+  font-family: 'Knewave', cursive;
+  text-transform: uppercase;
+}
+
+.me{
+  max-height: 220px;
+  display:block;
+    margin:auto;
+}
+
 .portfolio-blue{
   background-color: $theme-blue;
 }
@@ -25,9 +105,6 @@
     // text-align: center;
     color: $theme-blue;
     // background-color: $theme-primary;
-
-
-
 }
 
 .bg-lightblue{
@@ -89,6 +166,28 @@
   filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
   filter: brightness(20%);
   -webkit-filter: brightness(20%);
+}
+
+.hovereffect h1 {
+  text-transform: uppercase;
+  // position: relative;
+  font-size: 17px;
+  background-color: transparent;
+  color: white;
+  // font-family:
+  // opacity: 0;
+  filter: alpha(opacity=0);
+  // -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  // transition: opacity 0.35s, transform 0.35s;
+  // -webkit-transform: translate3d(0,-100%,0);
+  // transform: translate3d(0,-100%,0);
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  border: 2px solid white;
+  padding: 1rem;
+  text-align: center;
+
 }
 
 .hovereffect h2 {
@@ -288,13 +387,58 @@ svg:hover .my-shape{
 
 }
 
-/* Add an extra .carousel parent class to increase specifity
-   avoiding the use of !important flag. */
-   .carousel .carousel-indicators li {
-    background-color: red;
-    background-color: blue;
+// VDT
+
+.vdt-numberCircle {
+  border-radius: 50%;
+  behavior: url(PIE.htc);
+  /* remove if you don't care about IE8 */
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  background: #fff;
+  border: 2px solid #666;
+  color: #666;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+}
+
+// Button Contact
+.btn-contact{
+  color: $font-sub;
+  border: 1px solid;
+  border-color: $theme-blue;
+  background-color: $theme-blue;
+  // font-size: 1em;
+  text-transform: uppercase;
+    // font-size: .2em;
+    // background-color: transparent;
+    // color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: .85em;
+    // border: 2px solid #fff;
+    padding: 9px;
+    text-align: center;
+    font-family: $font-robotomono;
+    // font-weight: bold;
+  &:focus,
+  &:hover{
+    color:$font-gray;
+    border-color: transparent;
+    background-color: transparent;
   }
-  
-  .carousel .carousel-indicators .active {
-    background-color: #444 !important;
+  &:active,
+  &.active {
+      color: $font-gray;
+      border-color: transparent;
+      background-color: transparent;
+      font-weight: bold;
+    
   }
+}
+
+.img-logo{
+  max-width: 100px;
+}
+

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="smoothScroll">
 
 <head>
 
@@ -28,7 +28,7 @@
 
 </head>
 
-<body id="page-top">
+<body id="page-top" class="smoothScroll">
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -49,40 +49,166 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="../about.html#history">History</a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <header class="masthead">
+  <header class="masthead ">
     <div class="container h-100 ">
-      <div class="row h-100 d-flex justify-content-center">
-        <div class="col-lg-5 my-auto">
-          <div class="header-content mx-auto my-2">
-            <h1 class="mb-4">About</h1>
-            <p class="text-left py-4">My name is Emmalyn and I'm a UX Designer and Researcher with a background in Web Development and Information Technology. Technical experience through internships in Data Analytics and IT, HCI research,
-              hackathons, and faculty-led projects in the topics of VR and Chatbots. Along with leadership experience as a Program Coordinator for a computing mentoring organization and was previously Community Service/Outreach Chair for Women in
-              Computing Society at my college, NJIT. Seeking an entry level opportunity in the field of UX.<br><br> Drawing inspiration from traveling, gaming, indulging foods from different cultures, engaging in any outdoor activity, and the people
-              around me. I have a passion in learning about the expanding realm of technology and enthusiastic for what is to come in the future. </p>
 
-            <h2 id="contact">Contact</h2>
-            <p>Based in NJ
-              <p>Email: emmalynlramos@gmail.</p>
-                <a href="https://www.linkedin.com/in/emmalyn-ramos/" target="_blank">LinkedIn</a><br />
-                <a href="https://github.com/er-infinite" target="_blank">GitHub</a><br />
-                <a href="https://devpost.com/er-infinite" target="_blank">Hackathons</a>
-              </ul>
-
+      <div class="row d-flex justify-content-center">
+          <div class="col-lg-4 col-md-4 col-sm-5 col-xs-1">
+              <img src="img/about/aboutme.jpg" class="img-fluid about-me my-5 rounded-circle me" alt="Photo">
           </div>
-        </div>
-        <div class="col-lg-5 my-auto">
-          <div class="container">
-            <img src="img/about-me.JPG" class="img-fluid about-me my-5" style="transform: rotate(270deg);" alt="Photo">
+          <div class="col-lg-8 col-md-8">
+            <h1 class="mb-4 header-knewave">About</h1>
+            <p class="text-left">My name is Emmalyn Ramos a UX oriented tech adventurer. I define it as someone who has the enthusiasm to explore the unknown, use technology as their toolbox, and talk on behalf of the users. </p>
+              <p class="text-left">Currently working in acadamia as a UX Researcher on recreational sport communities. I have experience developing websites front-end and back-end. Worked independently as a UX Designer with VR technologies for the theater industry. Worked collaboratively with a UX team on designing an interactive system between students and chatbots. And interned in the Entertainment Industry (ION Media Networks + HBO) in Data Analytics, Information Technology, and Information Systems. 
+              <p>My knowledge is in technology. However, I also enjoy the simple pleasures of competitive video gaming, indulging foods of all kinds, watching films and shows, and actively engaging in recreational activities. 
+
+              All the while crossing items off my extensive bucket list. 
+              </p>
+              <div class="skills">
+                <h2><strong>EXPERIENCE</strong></h4>
+                <ul class="list-inline skills">
+                  <li class="list-inline-item">UX Design</li>
+                  <li class="list-inline-item">Research</li>
+                  <li class="list-inline-item">Web Development</li>
+                  <li class="list-inline-item">Responsive Design</li>
+                  <li class="list-inline-item">Information Technology</li>
+                  <li class="list-inline-item">Information Systems</li>
+                </ul>
+              </div>
+
+              <p>I have also dabbled in game programming and VR with Unity. In addition, application development with Android.</p>
+              <a href="#history"><button type="button" class="btn-caseStudy js-scroll-trigger">
+                  Work History
+              </button></a>
+
+            <h2 id="contact" class="pt-4">Contact</h2>
+              <p>Email: emmalynlramos@gmail.</p>
+              <div class="btn-group">
+              
+                <a href="https://www.linkedin.com/in/emmalyn-ramos/" target="_blank"><button class="btn-contact"><i class="fab fa-linkedin"></i> LinkedIn</button></a>
+                <a href="https://github.com/er-infinite" target="_blank"><button class="btn-contact"><i class="fab fa-github"></i> GitHub</button></a>
+                <a href="https://devpost.com/er-infinite" target="_blank"><button class="btn-contact"><i class="fas fa-laptop-code"></i> Hackathons</button></a>
+     
+            </div>
           </div>
         </div>
       </div>
     </div>
   </header>
+
+  <div id="history" class="container mt-5 pt-5">
+      <div class="row">
+        <div class="col-md-10 ml-auto col-xl-9 mr-auto">
+            <div class="card">
+                <div class="card-header">
+                  <ul class="nav nav-tabs nav-tabs-opposte justify-content-center" role="tablist" data-background-color="mygray">
+                    <li class="nav-item">
+                      <a class="nav-link opposite active" data-toggle="tab" href="#home1" role="tab">Present</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link opposite" data-toggle="tab" href="#profile1" role="tab">Past Internships</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link opposite" data-toggle="tab" href="#messages1" role="tab">Affiliations</a>
+                    </li>
+                  </ul>
+                </div>
+    
+                <div class="card-body">
+                  <!-- Tab panes -->
+                  <div class="tab-content text-center">
+                    <div class="tab-pane active" id="home1" role="tabpanel">
+                        <div class="row d-flex justify-content-center my-3">
+                            <div class="col-lg-8 col-xl-12">
+                                <div class="work-block-1 p-2">
+                                  <h3>NJIT Connections (HCI Lab)</h3>
+                                  <p class="text-muted robotomono">Research Assistant, Tech Coordinator</p>
+                                  <p class=""><span class='boldHighlight'>Status:</span></mark>  Currently discovering new insights in the field of Collaborative Lifelogging with my lab. <br>A paper in-progress :)</p>
+                                    <div class="row d-flex">
+                                      <div class="col">
+                                        <img src="img/about/thisone.jpg" class="img-fluid" alt="Affinity Map">
+                                      </div>
+                                    </div>
+                
+                                </div>
+                              </div>
+                              </div>
+                                <div class="row justify-content-center">
+                            <div class="col-md-5">
+                              <h3 class="text-center ">Education</h3>
+                            </div>
+                            
+                          </div>
+                          <div class="row">
+                            <div class="col-md-6 mx-auto section-red">
+                              <p class="text-muted robotomono">Graduated May 2019</p>
+                                <p>New Jersey Institute of Technology<br>
+                              B.S. Information Technology <br> Specialization: Web Applications<br> Minor: Design of the User Experience</p>
+                            </div>                     
+                          </div>
+                    </div>
+
+                    <div class="tab-pane" id="profile1" role="tabpanel">
+                        <div class="row justify-content-center my-3"> 
+                            <div class="col-md-5 mb-4">
+        
+                              <h3>Data Analytics & Information Technology Intern</h3>
+                              <p>ION Media Networks</p>
+                              <p class="text-muted robotomono">Summer 2017 & 2018</p>
+                              <img src="img/about/ion.png" class="img-fluid img-logo" alt="Photo">
+                            </div>
+                            <div class="col-md-5 mb-3">
+                                <h3>Media Technology Information Systems Intern</h3>
+                                <p>HBO</p>
+                                <p class="text-muted robotomono">Fall 2017</p>
+                                <img src="img/about/hbo.png" class="pt-4 img-fluid img-logo" alt="Photo">
+                              </div>
+                        
+                            </div>
+                    </div>
+                    <div class="tab-pane" id="messages1" role="tabpanel">
+                        <div class="row justify-content-center my-3"> 
+                            <div class="col-md-6 mb-4">
+                              <h3>Emma Bowen Fellow</h3>
+                              <p>Accepted to Emma Bowen Foundation Fellowship.
+                                  Selective program focused on building a
+                                  more diverse media industry </p>
+                              <p class="text-muted robotomono">Summer 2017 - Present</p>
+                              <img src="img/about/ebf.jpg" class="img-fluid img-logo" alt="Photo">
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <h3>GHC Scholar</h3>
+                                <p>Accepted as a Grace Hopper Celebrant Scholar for 2018.
+                                   Highly competitive scholarship 
+                                    (861 scholars, 9500+ applicant submissions)</p>
+                                <p class="text-muted robotomono">Fall 2018 - Present</p>
+                                <img src="img/about/ghc.png" class="img-fluid img-logo pt-3" alt="Photo">
+                              </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-md-5">
+                                    <h3>YWCC Mentoring Program Co-Founder</h3>
+                                    <p>Co-founder of YWCC Mentoring Program. An initiative to help undergraduates with peer to peer mentoring</p>
+                                    <p class="text-muted robotomono">Fall 2017 - Present</p>
+                                  </div>
+                            </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+     
+        </div>       
+      </div>
+    </div>
 
   <!-- <section class="text-center" id="d-flex justify-content-center">
 
@@ -107,7 +233,7 @@
     </div>
   </section> -->
 
-  <section class="text-center" id="download d-flex justify-content-center">
+  <!-- <section class="text-center" id="download d-flex justify-content-center">
     <div calss="container">
       <div class="row d-flex justify-content-center my-3">
         <div class="col-md-2">
@@ -120,9 +246,9 @@
           <p>B.S. Information Technology: Specialization - Web Applications<br> Minor: Design of the User Experience</p>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div calss="container ">
+    <!-- <div calss="container ">
       <div class="row d-flex justify-content-center my-3">
         <div class="col-md-2">
           <h3 class="text-center knewave-2">interests</h3>
@@ -140,8 +266,8 @@
         <div class="col-md-2">
           <h3 class="text-center knewave-3">Work Experience</h3>
         </div>
-      </div>
-      <div class="row d-flex justify-content-center pt-3">
+      </div> -->
+      <!-- <div class="row d-flex justify-content-center pt-3">
         <div class="col-lg-12 my-auto">
           <div class="container-fluid">
             <div class="py-3">
@@ -202,25 +328,53 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 
 
   <footer>
-    <div class="container">
+    <div class="bg-toughFooter1">
+      <div class="row text-center text-xs-center  text-md-left">
+          <div class="col-md-6">
+              <h5>My name is Emmalyn.</h5>
+              <p class="">I use curiosity, empathy, and imagination to construct digital experiences following a user centric approach and deliver products that are insight driven.</p>
+            </div>
+            <div class="col-md-3">
+              <h5>Case Studies</h5>
+              <ul class="list-unstyled quick-links">
+                <li><a href="" class="active">Virtual Design Theatre</a></li>
+                <li><a href="javascript:void();">NJIT FAQ Bot</a></li>
+                <li><a href="javascript:void();">Clubhub</a></li>
+                <li><a href="javascript:void();">Team Artichoke Dip</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Explore</h5>
+                <ul class="list-unstyled quick-links">
+                  <li><a href="javascript:void();">About Me</a></li>
+                  <li><a href="javascript:void();">Contact</a></li>
+                  <li><a href="javascript:void();">Work History</a></li>
+              
+                </ul>
+              </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+            <ul class="list-unstyled list-inline social text-center">
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/emmalyn-ramos/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+              <li class="list-inline-item"><a href="https://github.com/er-infinite" target="_blank"><i class="fab fa-github"></i></a></li>
+              <li class="list-inline-item"><a href="https://devpost.com/er-infinite" target="_blank"><i class="fas fa-laptop-code"></i></a></li>
+              <li class="list-inline-item"><a href="mailto: emmalynlramos@gmail.com"><i class="fa fa-envelope"></i></a></li>
+              
+     
+            </ul>
+          </div>
+          </hr>
+        </div>	
+      </div>
+    <div class=" bg-toughFooter2">
       <p>&copy; Emmalyn Ramos 2019. All Rights Reserved.</p>
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a href="#">Privacy</a>
-        </li>
-        <li class="list-inline-item">
-          <a href="#">Terms</a>
-        </li>
-        <li class="list-inline-item">
-          <a href="#">FAQ</a>
-        </li>
-      </ul>
     </div>
   </footer>
 

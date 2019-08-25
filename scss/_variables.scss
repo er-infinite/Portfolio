@@ -1,4 +1,5 @@
 // Variables
+@import url('https://fonts.googleapis.com/css?family=Lora|Merriweather|Merriweather+Sans&display=swap');
 
 // Gray and Brand Colors for use across theme
 
@@ -24,7 +25,11 @@ $brand-facebook:	#3b5998;
 $brand-google-plus:	#dd4b39;
 
 //fonts
-$font-robotomono: 'Roboto Mono', monospace;
+// $font-robotomono: 'Roboto Mono', monospace;
+$font-robotomono: 'Roboto Mono';
 $font-opensans: 'Open Sans', sans-serif;
 $font-knewave: 'Knewave', cursive;
 $font-nunito: 'Nunito', sans-serif;
+$font-lora: 'Lora', serif;
+$font-merriweather: 'Merriweather', serif;
+$font-merriweathersans: 'Merriweather Sans', sans-serif;

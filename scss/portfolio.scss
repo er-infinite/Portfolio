@@ -1,4 +1,4 @@
-
+// @import '/scss/variables';
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
@@ -8,12 +8,12 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700');
 //400 not used
 
+
 //h4
 #portfolio-design .subHeader{
   font-family: $font-robotomono;
   color: $font-sub;
   font-size: 1em;
-
 }
 
 #portfolio-design h1 {
@@ -30,6 +30,120 @@
   font-family: $font-knewave;
   // padding-bottom: .5rem;
 
+}
+
+#portfolio-design2 {
+  .subMast{
+    font-size: .9em;
+    font-weight: 300;
+  } 
+  .topHeader {
+    // font-weight: 700; //bold
+    font-size: 3rem;
+    font-family: $font-knewave;
+    // padding-bottom: .5rem;
+  }
+  .caseStudyBackground{
+    h3{
+      font-weight: 300; //lightweight
+      // text-transform: lowercase;
+      font-size: 1em;
+      font-family: $font-nunito;
+      color: $font-sub;
+    }
+    li{
+      line-height: 1.3;
+      margin-bottom: .3rem;
+    }
+  }
+  .subHeader{
+    font-family: $font-robotomono;
+    color: $font-sub;
+    font-size: 1em;
+    margin-top: 2rem;
+    border-bottom: 1px solid $font-sub; /* Or whatever color you want */
+    text-decoration: none;
+    border-spacing: 3em;
+    padding: 4px 0;
+    margin-bottom: 1rem;
+  }
+
+  .subHeaderHelper{
+    margin-top: 0;
+  }
+
+  h1 {
+    font-weight: 700; //bold
+    // text-transform: uppercase;
+    font-size: 1.3em;
+    font-family: $font-merriweathersans;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+
+  h2 {
+    font-weight: 600; //bold
+    font-size: 1em;
+    font-family: $font-merriweathersans;
+    margin: 2rem 0 1rem 0 ;
+  }
+
+  p {
+    font-family: $font-nunito;
+    // font-weight: 300; //light
+    font-size: 1em;
+    line-height: 1.7;
+    color: #434343;
+    
+  }
+
+  .p-mini {
+    font-family: $font-nunito;
+    font-weight: 300; //light
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+  li{
+    margin-bottom: .4rem;
+    line-height: 1.9;
+    font-family: $font-nunito;
+    color: #434343;
+    font-size: 1em;
+    font-weight: 300;
+    
+  }
+
+  .div-wrapper{
+    position: relative;
+  }
+  .div-wrapper img{
+    position: absolute;
+    // left: 50%;
+    bottom: 0;
+    // margin-left: calc(-80% / 2); 
+    max-height: 240px;
+
+  }
+
+  .boldHighlight2 {
+    font-weight: 600;
+  }
+
+  .persona{
+    border-left: 3px solid $font-gray;
+    padding-left: 15px;
+    font-style: italic;
+  }
+
+  .banner-text {
+  font-size: 2rem;
+  background-color: #34495eff;
+  color: #fff;
+  padding: 1.5rem 0;
+  font-family: $font-merriweathersans;
+  font-weight: 700;
+  }
 }
 
 #VDT {
@@ -49,7 +163,7 @@
 #portfolio-design h2 {
   font-weight: 700; //bold
   text-transform: uppercase;
-  font-size: .9em;
+  font-size: 1em;
   font-family: $font-nunito;
 
 }
@@ -57,7 +171,7 @@
 #portfolio-design h3 {
   font-weight: 300; //lightweight
   // text-transform: lowercase;
-  font-size: 1em;
+  font-size: 1.2em;
   font-family: $font-nunito;
   color: $font-sub;
 
@@ -66,17 +180,17 @@
 #portfolio-design p{
   font-family: $font-nunito;
   font-weight: 300; //light
-  font-size: 1.0em;
+  font-size: 1.2em;
   line-height: 1.7;
   color: #434343;
 }
 
-#portfolio-design .p-mini, ul{
-  font-family: $font-nunito;
-  font-weight: 300; //light
-  font-size: 1em;
-  line-height: 1.4;
-}
+// #portfolio-design .p-mini, ul{
+//   font-family: $font-nunito;
+//   font-weight: 300; //light
+//   font-size: 1em;
+//   line-height: 1.4;
+// }
 
 #portfolio-design .p-mini{
   font-family: $font-nunito;
@@ -87,11 +201,24 @@
 
 #portfolio-design li{
   margin-bottom: .5rem;
+  font-family: $font-nunito;
+  font-weight: 300; //light
+  font-size: 1.2em;
+  color: #434343;
 }
 
 #portfolio-design .boldHighlight{
   font-weight: 600; //semi-bold
   font-family: $font-nunito;
+}
+
+#portfolio-design .boldItalics{
+  font-weight: 400; //semi-bold
+  // font-family: $font-robotomono;
+  font-family: $font-nunito;
+  // font-style: oblique;
+  // font-size: .9em;
+  
 }
 
 #portfolio-design .banner{
@@ -131,14 +258,13 @@
   border-radius: 50%;
   behavior: url(PIE.htc);
   /* remove if you don't care about IE8 */
-  width: 27px;
-  height: 27px;
+  width: 16px;
+  height: 16px;
   padding-top: 0px;
-  background: #3365ff;
-  border: 2px solid #3365ff;
+  background: #34495eff;
   color: #fff;
   text-align: center;
-  font: 18px $font-nunito, sans-serif;
+  font: 7px $font-nunito, sans-serif;
   font-weight: 400;
 }
 
@@ -148,3 +274,4 @@
 .embed-container iframe, .embed-container object, .embed-container embed {
   position: absolute; top: 0; left: 0; width: 100%; height: 93%;
 }
+

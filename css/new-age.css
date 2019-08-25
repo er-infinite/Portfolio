@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
  */
 
+@import url("https://fonts.googleapis.com/css?family=Lora|Merriweather|Merriweather+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lora|Merriweather|Merriweather+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Knewave|Open+Sans|Roboto+Mono");
@@ -382,28 +384,47 @@ section.contact ul.list-social li.social-google-plus a:hover {
 }
 
 footer {
-  padding: 25px 0;
+  padding: 0 !important;
   text-align: center;
-  color: rgba(255, 255, 255, 0.3);
-  background-color: #222222;
 }
 
 footer p {
-  font-size: 12px;
-  margin: 0;
+  font-size: 1em;
+  margin: 0 !important;
+  line-height: 1.5 !important;
 }
 
 footer ul {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
+}
+
+footer ul li {
+  margin-bottom: 0 !important;
+  line-height: 1.5 !important;
 }
 
 footer ul li a {
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
   text-decoration: none;
+}
+
+footer h5 {
+  font-weight: bold;
+}
+
+footer .bg-toughFooter1 {
+  padding: 2rem 2rem !important;
+  color: #464646 !important;
+}
+
+footer .bg-toughFooter2 {
+  color: white;
+  background: #2D2D32;
+  padding: 1rem 2rem !important;
 }
 
 .bg-primary {
@@ -443,6 +464,80 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+
+.skills h2 {
+  margin-top: 1.5em;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+.skills li {
+  padding: .3rem;
+  margin: .3rem 0;
+  border-radius: 7px;
+  background: #FFE3E3;
+  font-weight: 500;
+}
+
+.smoothScroll {
+  scroll-behavior: smooth;
+}
+
+.caseStudy {
+  background: black;
+}
+
+.caseStudyInfo {
+  text-align: left;
+}
+
+.caseStudyInfo h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+  position: relative;
+  font-size: 17px;
+  color: #464646;
+}
+
+.caseStudyInfo h3 {
+  font-size: 10px;
+  font-family: "Roboto Mono";
+  color: #A5A5A5;
+}
+
+.caseStudyInfo p {
+  font-size: 1em;
+}
+
+.btn-caseStudy {
+  color: #464646;
+  border: 1px solid;
+  border-color: #5e5e5e;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: .85em;
+  padding: 9px;
+  text-align: center;
+}
+
+.btn-caseStudy:hover, .btn-caseStudy:focus, .btn-caseStudy:active, .btn-caseStudy.active {
+  color: white;
+  background-color: #5e5e5e;
+}
+
+.header-knewave {
+  font-size: 3em;
+  font-family: 'Knewave', cursive;
+  text-transform: uppercase;
+}
+
+.me {
+  max-height: 220px;
+  display: block;
+  margin: auto;
 }
 
 .portfolio-blue {
@@ -517,6 +612,20 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   -webkit-filter: brightness(20%);
 }
 
+.hovereffect h1 {
+  text-transform: uppercase;
+  font-size: 17px;
+  background-color: transparent;
+  color: white;
+  filter: alpha(opacity=0);
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  border: 2px solid white;
+  padding: 1rem;
+  text-align: center;
+}
+
 .hovereffect h2 {
   text-transform: uppercase;
   text-align: left;
@@ -530,7 +639,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .hovereffect h3 {
   font-size: 10px;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono";
   color: #A5A5A5;
 }
 
@@ -704,8 +813,53 @@ svg:hover .my-shape {
   fill: blue;
 }
 
+.vdt-numberCircle {
+  border-radius: 50%;
+  behavior: url(PIE.htc);
+  /* remove if you don't care about IE8 */
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  background: #fff;
+  border: 2px solid #666;
+  color: #666;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+}
+
+.btn-contact {
+  color: #A5A5A5;
+  border: 1px solid;
+  border-color: #E3FAFF;
+  background-color: #E3FAFF;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: .85em;
+  padding: 9px;
+  text-align: center;
+  font-family: "Roboto Mono";
+}
+
+.btn-contact:focus, .btn-contact:hover {
+  color: #464646;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.btn-contact:active, .btn-contact.active {
+  color: #464646;
+  border-color: transparent;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.img-logo {
+  max-width: 100px;
+}
+
 #portfolio-design .subHeader {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono";
   color: #A5A5A5;
   font-size: 1em;
 }
@@ -721,6 +875,112 @@ svg:hover .my-shape {
 #portfolio-design .topHeader {
   font-size: 3rem;
   font-family: "Knewave", cursive;
+}
+
+#portfolio-design2 .subMast {
+  font-size: .9em;
+  font-weight: 300;
+}
+
+#portfolio-design2 .topHeader {
+  font-size: 3rem;
+  font-family: "Knewave", cursive;
+}
+
+#portfolio-design2 .caseStudyBackground h3 {
+  font-weight: 300;
+  font-size: 1em;
+  font-family: "Nunito", sans-serif;
+  color: #A5A5A5;
+}
+
+#portfolio-design2 .caseStudyBackground li {
+  line-height: 1.3;
+  margin-bottom: .3rem;
+}
+
+#portfolio-design2 .subHeader {
+  font-family: "Roboto Mono";
+  color: #A5A5A5;
+  font-size: 1em;
+  margin-top: 2rem;
+  border-bottom: 1px solid #A5A5A5;
+  /* Or whatever color you want */
+  text-decoration: none;
+  border-spacing: 3em;
+  padding: 4px 0;
+  margin-bottom: 1rem;
+}
+
+#portfolio-design2 .subHeaderHelper {
+  margin-top: 0;
+}
+
+#portfolio-design2 h1 {
+  font-weight: 700;
+  font-size: 1.3em;
+  font-family: "Merriweather Sans", sans-serif;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+#portfolio-design2 h2 {
+  font-weight: 600;
+  font-size: 1em;
+  font-family: "Merriweather Sans", sans-serif;
+  margin: 2rem 0 1rem 0;
+}
+
+#portfolio-design2 p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1em;
+  line-height: 1.7;
+  color: #434343;
+}
+
+#portfolio-design2 .p-mini {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.2;
+}
+
+#portfolio-design2 li {
+  margin-bottom: .4rem;
+  line-height: 1.9;
+  font-family: "Nunito", sans-serif;
+  color: #434343;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+#portfolio-design2 .div-wrapper {
+  position: relative;
+}
+
+#portfolio-design2 .div-wrapper img {
+  position: absolute;
+  bottom: 0;
+  max-height: 240px;
+}
+
+#portfolio-design2 .boldHighlight2 {
+  font-weight: 600;
+}
+
+#portfolio-design2 .persona {
+  border-left: 3px solid #464646;
+  padding-left: 15px;
+  font-style: italic;
+}
+
+#portfolio-design2 .banner-text {
+  font-size: 2rem;
+  background-color: #34495eff;
+  color: #fff;
+  padding: 1.5rem 0;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 700;
 }
 
 #VDT {
@@ -742,13 +1002,13 @@ svg:hover .my-shape {
 #portfolio-design h2 {
   font-weight: 700;
   text-transform: uppercase;
-  font-size: .9em;
+  font-size: 1em;
   font-family: "Nunito", sans-serif;
 }
 
 #portfolio-design h3 {
   font-weight: 300;
-  font-size: 1em;
+  font-size: 1.2em;
   font-family: "Nunito", sans-serif;
   color: #A5A5A5;
 }
@@ -756,16 +1016,9 @@ svg:hover .my-shape {
 #portfolio-design p {
   font-family: "Nunito", sans-serif;
   font-weight: 300;
-  font-size: 1.0em;
+  font-size: 1.2em;
   line-height: 1.7;
   color: #434343;
-}
-
-#portfolio-design .p-mini, ul {
-  font-family: "Nunito", sans-serif;
-  font-weight: 300;
-  font-size: 1em;
-  line-height: 1.4;
 }
 
 #portfolio-design .p-mini {
@@ -777,10 +1030,19 @@ svg:hover .my-shape {
 
 #portfolio-design li {
   margin-bottom: .5rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  color: #434343;
 }
 
 #portfolio-design .boldHighlight {
   font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}
+
+#portfolio-design .boldItalics {
+  font-weight: 400;
   font-family: "Nunito", sans-serif;
 }
 
@@ -818,14 +1080,13 @@ svg:hover .my-shape {
   border-radius: 50%;
   behavior: url(PIE.htc);
   /* remove if you don't care about IE8 */
-  width: 27px;
-  height: 27px;
+  width: 16px;
+  height: 16px;
   padding-top: 0px;
-  background: #3365ff;
-  border: 2px solid #3365ff;
+  background: #34495eff;
   color: #fff;
   text-align: center;
-  font: 18px "Nunito", sans-serif, sans-serif;
+  font: 7px "Nunito", sans-serif, sans-serif;
   font-weight: 400;
 }
 
@@ -843,4 +1104,337 @@ svg:hover .my-shape {
   left: 0;
   width: 100%;
   height: 93%;
+}
+
+button,
+input {
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+
+a {
+  color: #f96332;
+}
+
+a:hover,
+a:focus {
+  color: #f96332;
+}
+
+p {
+  line-height: 1.61em;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+.category {
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #9A9A9A;
+}
+
+body {
+  color: #2c2c2c;
+  font-size: 14px;
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.nav-item .nav-link,
+.nav-tabs .nav-link {
+  -webkit-transition: all 300ms ease 0s;
+  transition: all 300ms ease 0s;
+}
+
+.card a {
+  -webkit-transition: all 150ms ease 0s;
+  transition: all 150ms ease 0s;
+}
+
+[data-toggle="collapse"][data-parent="#accordion"] i {
+  -webkit-transition: transform 150ms ease 0s;
+  -webkit-transition: -webkit-transform 150ms ease 0s;
+  transition: -webkit-transform 150ms ease 0s;
+  transition: transform 150ms ease 0s;
+  transition: transform 150ms ease 0s, -webkit-transform 150ms ease 0s;
+}
+
+[data-toggle="collapse"][data-parent="#accordion"][aria-expanded="true"] i {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.now-ui-icons {
+  display: inline-block;
+  font: normal normal normal 14px/1 'Nucleo Outline';
+  font-size: inherit;
+  speak: none;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@-webkit-keyframes nc-icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes nc-icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.now-ui-icons.objects_umbrella-13:before {
+  content: "\ea5f";
+}
+
+.now-ui-icons.shopping_cart-simple:before {
+  content: "\ea1d";
+}
+
+.now-ui-icons.shopping_shop:before {
+  content: "\ea50";
+}
+
+.now-ui-icons.ui-2_settings-90:before {
+  content: "\ea4b";
+}
+
+.nav-tabs {
+  border: 0;
+  padding: 15px 0.7rem;
+}
+
+.nav-tabs:not(.nav-tabs-neutral) > .nav-item > .nav-link.active {
+  -webkit-box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.3);
+}
+
+.card .nav-tabs {
+  border-top-right-radius: 0.1875rem;
+  border-top-left-radius: 0.1875rem;
+}
+
+.nav-tabs > .nav-item > .nav-link {
+  color: #A5A5A5;
+  margin: 0;
+  margin-right: 5px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  font-size: 14px;
+  padding: 11px 23px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.nav-tabs > .nav-item > .nav-link:hover {
+  background-color: transparent;
+}
+
+.nav-tabs > .nav-item > .nav-link.active {
+  background-color: #E3FAFF;
+  border-radius: 30px;
+  color: #464646;
+  font-weight: bold;
+}
+
+.nav-tabs > .nav-item > .nav-link i.now-ui-icons {
+  font-size: 14px;
+  position: relative;
+  top: 1px;
+  margin-right: 3px;
+}
+
+.nav-tabs.nav-tabs-neutral > .nav-item > .nav-link {
+  color: #FFFFFF;
+}
+
+.nav-tabs.nav-tabs-neutral > .nav-item > .nav-link {
+  color: red;
+}
+
+.nav-tabs.nav-tabs-neutral > .nav-item > .nav-link.active {
+  background-color: #464646;
+  color: #E3FAFF;
+  font-weight: bold;
+}
+
+.opposite.active {
+  color: #464646 !important;
+}
+
+.card {
+  border: 0;
+  border-radius: 0.1875rem;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-header {
+  background-color: transparent;
+  border-bottom: 0;
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0;
+}
+
+.card[data-background-color="orange"] {
+  background-color: #f96332;
+}
+
+.card[data-background-color="red"] {
+  background-color: #FF3636;
+}
+
+.card[data-background-color="yellow"] {
+  background-color: #FFB236;
+}
+
+.card[data-background-color="blue"] {
+  background-color: #2CA8FF;
+}
+
+.card[data-background-color="green"] {
+  background-color: #15b60d;
+}
+
+[data-background-color="orange"] {
+  background-color: #e95e38;
+}
+
+[data-background-color="black"] {
+  background-color: #2c2c2c;
+}
+
+[data-background-color="myblue"] {
+  background-color: #E3FAFF;
+}
+
+[data-background-color="mygray"] {
+  background-color: #464646;
+}
+
+[data-background-color]:not([data-background-color="gray"]) {
+  color: #FFFFFF;
+}
+
+[data-background-color]:not([data-background-color="gray"]) p {
+  color: #FFFFFF;
+}
+
+[data-background-color]:not([data-background-color="gray"]) a:not(.btn):not(.dropdown-item) {
+  color: #A5A5A5;
+  font-weight: bold;
+}
+
+[data-background-color]:not([data-background-color="gray"]) .nav-tabs > .nav-item > .nav-link i.now-ui-icons {
+  color: #FFFFFF;
+}
+
+@font-face {
+  font-family: 'Nucleo Outline';
+  src: url("https://github.com/creativetimofficial/now-ui-kit/blob/master/assets/fonts/nucleo-outline.eot");
+  src: url("https://github.com/creativetimofficial/now-ui-kit/blob/master/assets/fonts/nucleo-outline.eot") format("embedded-opentype");
+  src: url("https://raw.githack.com/creativetimofficial/now-ui-kit/master/assets/fonts/nucleo-outline.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.now-ui-icons {
+  display: inline-block;
+  font: normal normal normal 14px/1 'Nucleo Outline';
+  font-size: inherit;
+  speak: none;
+  text-transform: none;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+footer {
+  margin-top: 50px;
+  color: #555;
+  background: #fff;
+  padding: 25px;
+  font-weight: 300;
+  background: #f7f7f7;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+footer p a {
+  color: #555;
+  font-weight: 400;
+}
+
+footer p a:hover {
+  color: #e86c42;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-tabs {
+    display: inline-block;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+  }
+  .nav-tabs .nav-item > .nav-link {
+    margin-bottom: 5px;
+  }
+}
+
+section.cta {
+  position: relative;
+  padding: 250px 0;
+  background-image: url("../img/bg-cta.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+section.cta .cta-content {
+  position: relative;
+  z-index: 1;
+}
+
+section.cta .cta-content h2 {
+  font-size: 50px;
+  max-width: 450px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  section.cta .cta-content h2 {
+    font-size: 80px;
+  }
+}
+
+section.cta .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }

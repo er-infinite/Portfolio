@@ -21,6 +21,7 @@ header.masthead {
             font-family: 'Knewave', cursive;
             text-transform: uppercase;
         }
+
     }
     .device-container {
         max-width: 325px;
@@ -29,6 +30,7 @@ header.masthead {
         .screen img {
             border-radius: 3px;
         }
+        
     }
     @media (min-width: 992px) {
         margin-top: 10vh;
@@ -49,4 +51,8 @@ header.masthead {
             max-width: 325px;
         }
     }
+
+
 }
+
+

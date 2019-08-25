@@ -9,12 +9,38 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito");
 @import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700");
 #portfolio-design .subHeader {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono";
   color: #A5A5A5;
+  font-size: 1em;
 }
 
 #portfolio-design h1 {
   font-weight: 700;
+  font-size: 1.5em;
+  color: #686868;
+  font-family: "Nunito", sans-serif;
+  padding-bottom: .5rem;
+}
+
+#portfolio-design .topHeader {
+  font-size: 3rem;
+  font-family: "Knewave", cursive;
+}
+
+#VDT {
+  color: #34495eff !important;
+}
+
+#hexhacks {
+  color: #FF6E60 !important;
+}
+
+#clubhub {
+  color: #3365ff !important;
+}
+
+#faqbot {
+  color: #56bffb !important;
 }
 
 #portfolio-design h2 {
@@ -34,8 +60,9 @@
 #portfolio-design p {
   font-family: "Nunito", sans-serif;
   font-weight: 300;
-  font-size: 1.1em;
+  font-size: 1.0em;
   line-height: 1.7;
+  color: #434343;
 }
 
 #portfolio-design .p-mini, ul {
@@ -70,19 +97,53 @@
 }
 
 #portfolio-design .banner-text {
+  font-size: 2.5rem;
+  background-color: #3365ff;
   color: #fff;
+  padding: 2.3rem 0;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+#portfolio-design .banner-temp {
+  font-size: 2.5rem;
+  background-color: #56bffb;
+  color: #fff;
+  padding: 2.3rem 0;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+#bg-faqbot {
+  background-image: linear-gradient(-135deg, #FFFFFF 0%, #F4FBFF 100%, #F3FBFF 100%);
 }
 
 .numberCircle {
   border-radius: 50%;
   behavior: url(PIE.htc);
   /* remove if you don't care about IE8 */
-  width: 36px;
-  height: 36px;
-  padding: 8px;
-  background: #fff;
-  border: 2px solid #666;
-  color: #666;
+  width: 16px;
+  height: 16px;
+  padding-top: 0px;
+  background: #34495eff;
+  color: #fff;
   text-align: center;
-  font: 32px Arial, sans-serif;
+  font: 7px "Nunito", sans-serif, sans-serif;
+  font-weight: 400;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 93%;
 }
