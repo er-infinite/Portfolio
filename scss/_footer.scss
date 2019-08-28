@@ -14,14 +14,20 @@ footer {
         margin-bottom: 0 !important;
         li {
             a {
-                font-size: 12px;
+                font-size: 1em;
                 // color: fade-out(white, .7);
                 color: fade-out(black, .7);
-                &:hover,
+                &:hover{
+                    color: $theme-primary;
+                    text-decoration: none;
+                    font-weight: bold;
+                    // transition: 0s;
+                }
                 &:focus,
                 &:active,
                 &.active {
                     text-decoration: none;
+                    
                 }
             }
             margin-bottom: 0 !important; 
@@ -50,6 +56,21 @@ footer {
         // width: 100%; // These are well supported and I use them on my site
           // height: 100vh;// I even tweeted guil and he agreed a good choice
       }
+
+    .active-link{
+        // color: $theme-primary !important;
+        font-weight: bold;
+
+    }
+
+    .disabled{
+        border-left: 3px solid #2D2D32;
+        font-size: .9em;
+        padding: 0 0 0 5px;
+        text-transform: none;
+        margin: .5em 0;
+        border-radius: 0;
+    }
 }
 
 // /* Footer */

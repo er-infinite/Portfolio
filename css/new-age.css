@@ -404,11 +404,17 @@ footer ul li {
 }
 
 footer ul li a {
-  font-size: 12px;
+  font-size: 1em;
   color: rgba(0, 0, 0, 0.3);
 }
 
-footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
+footer ul li a:hover {
+  color: #66DBF6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer ul li a:focus, footer ul li a:active, footer ul li a.active {
   text-decoration: none;
 }
 
@@ -425,6 +431,19 @@ footer .bg-toughFooter2 {
   color: white;
   background: #2D2D32;
   padding: 1rem 2rem !important;
+}
+
+footer .active-link {
+  font-weight: bold;
+}
+
+footer .disabled {
+  border-left: 3px solid #2D2D32;
+  font-size: .9em;
+  padding: 0 0 0 5px;
+  text-transform: none;
+  margin: .5em 0;
+  border-radius: 0;
 }
 
 .bg-primary {
