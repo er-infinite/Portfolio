@@ -33,6 +33,16 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+.case-img{
+    // height: 275px;
+    // display: block;
+    // width: auto;
+    // max-height: 100%;
+    object-fit: cover;
+    // max-height: 300px;
+    // max-width: 400px;
+}
+
 .nav-item .nav-link,
 .nav-tabs .nav-link {
     -webkit-transition: all 300ms ease 0s;

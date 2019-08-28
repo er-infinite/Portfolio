@@ -515,18 +515,18 @@ footer .disabled {
   text-transform: uppercase;
   font-weight: 500;
   position: relative;
-  font-size: 17px;
+  font-size: 1.3em;
   color: #464646;
 }
 
 .caseStudyInfo h3 {
-  font-size: 10px;
+  font-size: .9em;
   font-family: "Roboto Mono";
   color: #A5A5A5;
 }
 
 .caseStudyInfo p {
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 .btn-caseStudy {
@@ -1158,6 +1158,11 @@ body {
   overflow-x: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+}
+
+.case-img {
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .nav-item .nav-link,
